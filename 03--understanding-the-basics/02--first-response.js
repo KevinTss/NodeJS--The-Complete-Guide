@@ -1,4 +1,8 @@
-// First basic node server with response
+/**
+ * First basic node server with response
+ * 
+ * Article aout header : https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers
+ */
 
 const http = require('http');
 

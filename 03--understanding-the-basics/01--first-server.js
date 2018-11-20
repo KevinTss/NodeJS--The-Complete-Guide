@@ -1,4 +1,6 @@
-// First basic node server
+/**
+ * First basic node server
+ */
 
 const http = require('http');
 
