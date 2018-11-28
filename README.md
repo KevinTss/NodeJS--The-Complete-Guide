@@ -4,7 +4,7 @@ This is a repo with all steps learned in tutrial of Maximilian Schwarzmüller fr
 
 You can find all about his tutorials [here](https://www.udemy.com/user/academind/).
 
-## Understanding basics
+### Understanding the Basics
 
 1. Creating first server
 2. Get our first response
@@ -12,6 +12,11 @@ You can find all about his tutorials [here](https://www.udemy.com/user/academind
 4. Create a file on submit form
 5. Get data from a post request
 6. Turn server using an importing seprate file
+
+### Improved Development Workflow and Debugging
+
+1. Initialize your project with npm
+2. Install package with npm
 
 # Usefull links
 
