@@ -1,6 +1,6 @@
 # NodeJS - The complete guide
 
-This is a repo with all step learned in the tutrial of Maximilian Schwarzmüller from Academind
+This is a repo with all steps learned in tutrial of Maximilian Schwarzmüller from Academind.
 
 You can find all about his tutorials [here](https://www.udemy.com/user/academind/).
 
@@ -11,4 +11,4 @@ You can find all about his tutorials [here](https://www.udemy.com/user/academind
 3. Build first routing
 4. Create a file on submit form
 5. Get data from a post request
-
+6. Turn server using an importing seprate file
