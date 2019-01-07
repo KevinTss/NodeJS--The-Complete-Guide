@@ -6,11 +6,18 @@ const express = require('express');
 
 const app = express();
 
-// Put the route in ordre
-// remember that for each request we pass through each middleware et if we send, we stop
-// If we put the '/' first, we always pass on it
+app.use('/', (req, res, next) => {
+  console.log('always run')
+  next()
+})
+
 app.use('/add-product', (req, res, next) => {
   console.log('In the middleware')
+  res.send('<form><input action="/product" method="POST" type="text" name="title"><button>Send</button></form>')
+})
+
+app.use('/product', (req, res, next) => {
+
   res.send('<h1>Add product</h1>')
 })
 
